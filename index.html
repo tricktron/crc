@@ -442,9 +442,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#introducing-codeready-containers_gsg">1. Introducing Red&#160;Hat CodeReady Containers</a>
+<li><a href="#introducing-codeready-containers_gsg">1. Introducing Red&#160;Hat CRC</a>
 <ul class="sectlevel2">
-<li><a href="#about-codeready-containers_gsg">1.1. About CodeReady Containers</a></li>
+<li><a href="#about-codeready-containers_gsg">1.1. About CRC</a></li>
 <li><a href="#differences-from-production-openshift-install_gsg">1.2. Differences from a production OpenShift installation</a></li>
 </ul>
 </li>
@@ -457,16 +457,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#required-software-packages_gsg">2.2. Required software packages for Linux</a></li>
-<li><a href="#installing-codeready-containers_gsg">2.3. Installing CodeReady Containers</a></li>
+<li><a href="#installing-codeready-containers_gsg">2.3. Installing CRC</a></li>
 <li><a href="#about-usage-data-collection_gsg">2.4. About usage data collection</a></li>
 <li><a href="#configuring-usage-data-collection_gsg">2.5. Configuring usage data collection</a></li>
-<li><a href="#upgrading-codeready-containers_gsg">2.6. Upgrading CodeReady Containers</a></li>
+<li><a href="#upgrading-codeready-containers_gsg">2.6. Upgrading CRC</a></li>
 </ul>
 </li>
-<li><a href="#using-codeready-containers_gsg">3. Using CodeReady Containers</a>
+<li><a href="#using-codeready-containers_gsg">3. Using CRC</a>
 <ul class="sectlevel2">
 <li><a href="#about-presets_gsg">3.1. About presets</a></li>
-<li><a href="#setting-up-codeready-containers_gsg">3.2. Setting up CodeReady Containers</a></li>
+<li><a href="#setting-up-codeready-containers_gsg">3.2. Setting up CRC</a></li>
 <li><a href="#starting-the-instance_gsg">3.3. Starting the instance</a></li>
 <li><a href="#accessing-the-openshift-cluster_gsg">3.4. Accessing the OpenShift cluster</a>
 <ul class="sectlevel3">
@@ -480,10 +480,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#deleting-the-instance_gsg">3.7. Deleting the instance</a></li>
 </ul>
 </li>
-<li><a href="#configuring-codeready-containers_gsg">4. Configuring CodeReady Containers</a>
+<li><a href="#configuring-codeready-containers_gsg">4. Configuring CRC</a>
 <ul class="sectlevel2">
-<li><a href="#about-codeready-containers-configuration_gsg">4.1. About CodeReady Containers configuration</a></li>
-<li><a href="#viewing-codeready-containers-configuration_gsg">4.2. Viewing CodeReady Containers configuration</a></li>
+<li><a href="#about-codeready-containers-configuration_gsg">4.1. About CRC configuration</a></li>
+<li><a href="#viewing-codeready-containers-configuration_gsg">4.2. Viewing CRC configuration</a></li>
 <li><a href="#changing-the-selected-preset_gsg">4.3. Changing the selected preset</a></li>
 <li><a href="#configuring-the-instance_gsg">4.4. Configuring the instance</a></li>
 </ul>
@@ -497,9 +497,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#reserved-ip-subnets_gsg">5.2. Reserved IP subnets</a></li>
-<li><a href="#starting-codeready-containers-behind-proxy_gsg">5.3. Starting CodeReady Containers behind a proxy</a></li>
-<li><a href="#setting-up-remote-server_gsg">5.4. Setting up CodeReady Containers on a remote server</a></li>
-<li><a href="#connecting-to-remote-instance_gsg">5.5. Connecting to a remote CodeReady Containers instance</a></li>
+<li><a href="#starting-codeready-containers-behind-proxy_gsg">5.3. Starting CRC behind a proxy</a></li>
+<li><a href="#setting-up-remote-server_gsg">5.4. Setting up CRC on a remote server</a></li>
+<li><a href="#connecting-to-remote-instance_gsg">5.5. Connecting to a remote CRC instance</a></li>
 </ul>
 </li>
 <li><a href="#administrative-tasks_gsg">6. Administrative tasks</a>
@@ -507,7 +507,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#starting-monitoring_gsg">6.1. Starting monitoring</a></li>
 </ul>
 </li>
-<li><a href="#troubleshooting-codeready-containers_gsg">7. Troubleshooting Red&#160;Hat CodeReady Containers</a>
+<li><a href="#troubleshooting-codeready-containers_gsg">7. Troubleshooting Red&#160;Hat CRC</a>
 <ul class="sectlevel2">
 <li><a href="#getting-shell-access-to-the-openshift-cluster_gsg">7.1. Getting shell access to the OpenShift cluster</a></li>
 <li><a href="#troubleshooting-expired-certificates_gsg">7.2. Troubleshooting expired certificates</a></li>
@@ -520,35 +520,35 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="introducing-codeready-containers_gsg"><a class="anchor" href="#introducing-codeready-containers_gsg"></a><a class="link" href="#introducing-codeready-containers_gsg">1. Introducing Red&#160;Hat CodeReady Containers</a></h2>
+<h2 id="introducing-codeready-containers_gsg"><a class="anchor" href="#introducing-codeready-containers_gsg"></a><a class="link" href="#introducing-codeready-containers_gsg">1. Introducing Red&#160;Hat CRC</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="about-codeready-containers_gsg"><a class="anchor" href="#about-codeready-containers_gsg"></a><a class="link" href="#about-codeready-containers_gsg">1.1. About CodeReady Containers</a></h3>
+<h3 id="about-codeready-containers_gsg"><a class="anchor" href="#about-codeready-containers_gsg"></a><a class="link" href="#about-codeready-containers_gsg">1.1. About CRC</a></h3>
 <div class="paragraph">
-<p>Red&#160;Hat CodeReady Containers brings a minimal OpenShift Container Platform 4 cluster and Podman container runtime to your local computer.
+<p>Red&#160;Hat CRC brings a minimal OpenShift Container Platform 4 cluster and Podman container runtime to your local computer.
 These runtimes provide minimal environments for development and testing purposes.
-CodeReady Containers is mainly targeted at running on developers' desktops.
+CRC is mainly targeted at running on developers' desktops.
 For other OpenShift Container Platform use cases, such as headless or multi-developer setups, use the <a href="https://console.redhat.com/openshift/install">full OpenShift installer</a>.</p>
 </div>
 <div class="paragraph">
 <p>See the <a href="https://docs.openshift.com/container-platform/latest/welcome/index.html#developer-activities">OpenShift documentation</a> for a full introduction to OpenShift Container Platform.</p>
 </div>
 <div class="paragraph">
-<p>CodeReady Containers includes the <code class="command">crc</code> command-line interface (CLI) to interact with the CodeReady Containers instance using the desired container runtime.</p>
+<p>CRC includes the <code class="command">crc</code> command-line interface (CLI) to interact with the CRC instance using the desired container runtime.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="differences-from-production-openshift-install_gsg"><a class="anchor" href="#differences-from-production-openshift-install_gsg"></a><a class="link" href="#differences-from-production-openshift-install_gsg">1.2. Differences from a production OpenShift installation</a></h3>
 <div class="paragraph">
-<p>The OpenShift preset for Red&#160;Hat CodeReady Containers provides a regular OpenShift Container Platform installation with the following notable differences:</p>
+<p>The OpenShift preset for Red&#160;Hat CRC provides a regular OpenShift Container Platform installation with the following notable differences:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>The CodeReady Containers OpenShift cluster is ephemeral and is not intended for production use.</strong></p>
+<p><strong>The CRC OpenShift cluster is ephemeral and is not intended for production use.</strong></p>
 </li>
 <li>
-<p><strong>CodeReady Containers does not have a supported upgrade path to newer OpenShift versions.</strong>
+<p><strong>CRC does not have a supported upgrade path to newer OpenShift versions.</strong>
 Upgrading the OpenShift version may cause issues that are difficult to reproduce.</p>
 </li>
 <li>
@@ -565,7 +565,7 @@ This may cause other differences, particularly with external networking.</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>The OpenShift cluster provided by CodeReady Containers also includes the following non-customizable cluster settings.
+<p>The OpenShift cluster provided by CRC also includes the following non-customizable cluster settings.
 These settings should not be modified:</p>
 </div>
 <div class="ulist">
@@ -595,17 +595,17 @@ This can cause issues when, for example, a proxy is run in the same address spac
 <div class="sect2">
 <h3 id="minimum-system-requirements_gsg"><a class="anchor" href="#minimum-system-requirements_gsg"></a><a class="link" href="#minimum-system-requirements_gsg">2.1. Minimum system requirements</a></h3>
 <div class="paragraph _abstract">
-<p>CodeReady Containers has the following minimum hardware and operating system requirements.</p>
+<p>CRC has the following minimum hardware and operating system requirements.</p>
 </div>
 <div class="sect3">
 <h4 id="minimum-system-requirements-hardware_gsg"><a class="anchor" href="#minimum-system-requirements-hardware_gsg"></a><a class="link" href="#minimum-system-requirements-hardware_gsg">2.1.1. Hardware requirements</a></h4>
 <div class="paragraph">
-<p>CodeReady Containers is supported only on AMD64 and Intel 64 processor architectures.
-CodeReady Containers does not support the ARM-based M1 architecture.
-CodeReady Containers does not support nested virtualization.</p>
+<p>CRC is supported only on AMD64 and Intel 64 processor architectures.
+CRC does not support the ARM-based M1 architecture.
+CRC does not support nested virtualization.</p>
 </div>
 <div class="paragraph">
-<p>Depending on the desired container runtime, CodeReady Containers requires the following system resources:</p>
+<p>Depending on the desired container runtime, CRC requires the following system resources:</p>
 </div>
 <div class="sect4">
 <h5 id="_for_openshift_container_platform"><a class="anchor" href="#_for_openshift_container_platform"></a><a class="link" href="#_for_openshift_container_platform">For OpenShift Container Platform</a></h5>
@@ -630,9 +630,9 @@ CodeReady Containers does not support nested virtualization.</p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>The OpenShift Container Platform cluster requires these minimum resources to run in the CodeReady Containers instance.
+<p>The OpenShift Container Platform cluster requires these minimum resources to run in the CRC instance.
 Some workloads may require more resources.
-To assign more resources to the CodeReady Containers instance, see <a href="https://code-ready.github.io/crc/#configuring-the-instance_gsg">Configuring the instance</a>.</p>
+To assign more resources to the CRC instance, see <a href="https://code-ready.github.io/crc/#configuring-the-instance_gsg">Configuring the instance</a>.</p>
 </div>
 </td>
 </tr>
@@ -659,15 +659,15 @@ To assign more resources to the CodeReady Containers instance, see <a href="http
 <div class="sect3">
 <h4 id="minimum-system-requirements-operating-system_gsg"><a class="anchor" href="#minimum-system-requirements-operating-system_gsg"></a><a class="link" href="#minimum-system-requirements-operating-system_gsg">2.1.2. Operating system requirements</a></h4>
 <div class="paragraph">
-<p>CodeReady Containers requires the following minimum version of a supported operating system:</p>
+<p>CRC requires the following minimum version of a supported operating system:</p>
 </div>
 <div class="sect4">
 <h5 id="_microsoft_windows"><a class="anchor" href="#_microsoft_windows"></a><a class="link" href="#_microsoft_windows">Microsoft Windows</a></h5>
 <div class="ulist">
 <ul>
 <li>
-<p>On Microsoft Windows, CodeReady Containers requires the Windows 10 Fall Creators Update (version 1709) or later.
-CodeReady Containers does not work on earlier versions of Microsoft Windows.
+<p>On Microsoft Windows, CRC requires the Windows 10 Fall Creators Update (version 1709) or later.
+CRC does not work on earlier versions of Microsoft Windows.
 Microsoft Windows 10 Home Edition is not supported.</p>
 </li>
 </ul>
@@ -678,8 +678,8 @@ Microsoft Windows 10 Home Edition is not supported.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>On macOS, CodeReady Containers requires macOS 10.14 Mojave or later.
-CodeReady Containers does not work on earlier versions of macOS.</p>
+<p>On macOS, CRC requires macOS 10.14 Mojave or later.
+CRC does not work on earlier versions of macOS.</p>
 </li>
 </ul>
 </div>
@@ -689,10 +689,10 @@ CodeReady Containers does not work on earlier versions of macOS.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>On Linux, CodeReady Containers is supported only on Red&#160;Hat Enterprise&#160;Linux/CentOS 7.5 or later (including 8.x versions) and on the latest two stable Fedora releases.</p>
+<p>On Linux, CRC is supported only on Red&#160;Hat Enterprise&#160;Linux/CentOS 7.5 or later (including 8.x versions) and on the latest two stable Fedora releases.</p>
 </li>
 <li>
-<p>When using Red&#160;Hat Enterprise&#160;Linux, the machine running CodeReady Containers must be <a href="https://access.redhat.com/solutions/253273">registered with the Red Hat Customer Portal</a>.</p>
+<p>When using Red&#160;Hat Enterprise&#160;Linux, the machine running CRC must be <a href="https://access.redhat.com/solutions/253273">registered with the Red Hat Customer Portal</a>.</p>
 </li>
 <li>
 <p>Ubuntu 18.04 LTS or later and Debian 10 or later are not supported and may require manual set up of the host machine.</p>
@@ -708,7 +708,7 @@ CodeReady Containers does not work on earlier versions of macOS.</p>
 <div class="sect2">
 <h3 id="required-software-packages_gsg"><a class="anchor" href="#required-software-packages_gsg"></a><a class="link" href="#required-software-packages_gsg">2.2. Required software packages for Linux</a></h3>
 <div class="paragraph">
-<p>CodeReady Containers requires the <code>libvirt</code> and <code>NetworkManager</code> packages to run on Linux.
+<p>CRC requires the <code>libvirt</code> and <code>NetworkManager</code> packages to run on Linux.
 Consult the following table to find the command used to install these packages for your Linux distribution:</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
@@ -740,10 +740,10 @@ Consult the following table to find the command used to install these packages f
 </table>
 </div>
 <div class="sect2">
-<h3 id="installing-codeready-containers_gsg"><a class="anchor" href="#installing-codeready-containers_gsg"></a><a class="link" href="#installing-codeready-containers_gsg">2.3. Installing CodeReady Containers</a></h3>
+<h3 id="installing-codeready-containers_gsg"><a class="anchor" href="#installing-codeready-containers_gsg"></a><a class="link" href="#installing-codeready-containers_gsg">2.3. Installing CRC</a></h3>
 <div class="paragraph">
-<p>CodeReady Containers is available as a portable executable for Red&#160;Hat Enterprise&#160;Linux.
-On Microsoft Windows and macOS, CodeReady Containers is available using a guided installer.</p>
+<p>CRC is available as a portable executable for Red&#160;Hat Enterprise&#160;Linux.
+On Microsoft Windows and macOS, CRC is available using a guided installer.</p>
 </div>
 <div class="ulist">
 <div class="title">Prerequisites</div>
@@ -758,7 +758,7 @@ For more information, see <a href="https://code-ready.github.io/crc/#minimum-sys
 <div class="title">Procedure</div>
 <ol class="arabic">
 <li>
-<p>Download the <a href="https://console.redhat.com/openshift/create/local">latest release of CodeReady Containers</a> for your platform.</p>
+<p>Download the <a href="https://console.redhat.com/openshift/create/local">latest release of CRC</a> for your platform.</p>
 </li>
 <li>
 <p>On Microsoft Windows, extract the contents of the archive.</p>
@@ -773,8 +773,8 @@ For more information, see <a href="https://code-ready.github.io/crc/#minimum-sys
 </td>
 <td class="content">
 <div class="paragraph">
-<p>On Microsoft Windows, you must install CodeReady Containers to your local <strong class="filename"><em>C:\</em></strong> drive.
-You cannot run CodeReady Containers from a network drive.</p>
+<p>On Microsoft Windows, you must install CRC to your local <strong class="filename"><em>C:\</em></strong> drive.
+You cannot run CRC from a network drive.</p>
 </div>
 </td>
 </tr>
@@ -821,7 +821,7 @@ $ echo 'export PATH=$PATH:$HOME/bin' >> ~/.bashrc</pre>
 <div class="sect2">
 <h3 id="about-usage-data-collection_gsg"><a class="anchor" href="#about-usage-data-collection_gsg"></a><a class="link" href="#about-usage-data-collection_gsg">2.4. About usage data collection</a></h3>
 <div class="paragraph">
-<p>CodeReady Containers prompts you before use for optional, anonymous usage data collection to assist with development.
+<p>CRC prompts you before use for optional, anonymous usage data collection to assist with development.
 No personally identifiable information is collected.
 Consent for usage data collection can be granted or revoked by you at any time.</p>
 </div>
@@ -888,18 +888,18 @@ The change will take effect next time you run the <code class="command">crc star
 </div>
 </div>
 <div class="sect2">
-<h3 id="upgrading-codeready-containers_gsg"><a class="anchor" href="#upgrading-codeready-containers_gsg"></a><a class="link" href="#upgrading-codeready-containers_gsg">2.6. Upgrading CodeReady Containers</a></h3>
+<h3 id="upgrading-codeready-containers_gsg"><a class="anchor" href="#upgrading-codeready-containers_gsg"></a><a class="link" href="#upgrading-codeready-containers_gsg">2.6. Upgrading CRC</a></h3>
 <div class="paragraph">
-<p>Newer versions of the CodeReady Containers executable require manual set up to prevent potential incompatibilities with earlier versions.</p>
+<p>Newer versions of the CRC executable require manual set up to prevent potential incompatibilities with earlier versions.</p>
 </div>
 <div class="olist arabic">
 <div class="title">Procedure</div>
 <ol class="arabic">
 <li>
-<p><a href="https://console.redhat.com/openshift/create/local">Download the latest release of CodeReady Containers</a>.</p>
+<p><a href="https://console.redhat.com/openshift/create/local">Download the latest release of CRC</a>.</p>
 </li>
 <li>
-<p>Delete the existing CodeReady Containers instance:</p>
+<p>Delete the existing CRC instance:</p>
 <div class="listingblock">
 <div class="content">
 <pre>$ crc delete</pre>
@@ -913,7 +913,7 @@ The change will take effect next time you run the <code class="command">crc star
 </td>
 <td class="content">
 <div class="paragraph">
-<p>The <code class="command">crc delete</code> command results in the loss of data stored in the CodeReady Containers instance.
+<p>The <code class="command">crc delete</code> command results in the loss of data stored in the CRC instance.
 Save any desired information stored in the instance before running this command.</p>
 </div>
 </td>
@@ -931,7 +931,7 @@ Verify that the new <code class="command">crc</code> executable is in use by che
 </div>
 </li>
 <li>
-<p>Set up the new CodeReady Containers release:</p>
+<p>Set up the new CRC release:</p>
 <div class="listingblock">
 <div class="content">
 <pre>$ crc setup</pre>
@@ -939,7 +939,7 @@ Verify that the new <code class="command">crc</code> executable is in use by che
 </div>
 </li>
 <li>
-<p>Start the new CodeReady Containers instance:</p>
+<p>Start the new CRC instance:</p>
 <div class="listingblock">
 <div class="content">
 <pre>$ crc start</pre>
@@ -952,16 +952,16 @@ Verify that the new <code class="command">crc</code> executable is in use by che
 </div>
 </div>
 <div class="sect1">
-<h2 id="using-codeready-containers_gsg"><a class="anchor" href="#using-codeready-containers_gsg"></a><a class="link" href="#using-codeready-containers_gsg">3. Using CodeReady Containers</a></h2>
+<h2 id="using-codeready-containers_gsg"><a class="anchor" href="#using-codeready-containers_gsg"></a><a class="link" href="#using-codeready-containers_gsg">3. Using CRC</a></h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="about-presets_gsg"><a class="anchor" href="#about-presets_gsg"></a><a class="link" href="#about-presets_gsg">3.1. About presets</a></h3>
 <div class="paragraph _abstract">
-<p>CodeReady Containers presets represent a managed container runtime and the lower bounds of system resources required by the instance to run it.
-CodeReady Containers offers presets for OpenShift Container Platform and the Podman container runtime.</p>
+<p>CRC presets represent a managed container runtime and the lower bounds of system resources required by the instance to run it.
+CRC offers presets for OpenShift Container Platform and the Podman container runtime.</p>
 </div>
 <div class="paragraph">
-<p>On Microsoft Windows and macOS, the CodeReady Containers guided installer prompts you for your desired preset.
+<p>On Microsoft Windows and macOS, the CRC guided installer prompts you for your desired preset.
 On Linux, the OpenShift Container Platform preset is selected by default.
 You can change this selection using the <code class="command">crc config</code> command before running the <code class="command">crc setup</code> command.
 You can change your selected preset from the system tray on Microsoft Windows and macOS or from the command line on all supported operating systems.
@@ -980,9 +980,9 @@ Only one preset can be active at a time.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="setting-up-codeready-containers_gsg"><a class="anchor" href="#setting-up-codeready-containers_gsg"></a><a class="link" href="#setting-up-codeready-containers_gsg">3.2. Setting up CodeReady Containers</a></h3>
+<h3 id="setting-up-codeready-containers_gsg"><a class="anchor" href="#setting-up-codeready-containers_gsg"></a><a class="link" href="#setting-up-codeready-containers_gsg">3.2. Setting up CRC</a></h3>
 <div class="paragraph _abstract">
-<p>The <code class="command">crc setup</code> command performs operations to set up the environment of your host machine for the CodeReady Containers instance.</p>
+<p>The <code class="command">crc setup</code> command performs operations to set up the environment of your host machine for the CRC instance.</p>
 </div>
 <div class="paragraph">
 <p>The <code class="command">crc setup</code> command creates the <strong class="filename"><em>~/.crc</em></strong> directory if it does not already exist.</p>
@@ -995,7 +995,7 @@ Only one preset can be active at a time.</p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>If you are setting up a new version, capture any changes made to the instance before setting up a new CodeReady Containers release.</p>
+<p>If you are setting up a new version, capture any changes made to the instance before setting up a new CRC release.</p>
 </div>
 </td>
 </tr>
@@ -1038,7 +1038,7 @@ To select the the Podman container runtime preset:</p>
 </div>
 </li>
 <li>
-<p>Set up your host machine for CodeReady Containers:</p>
+<p>Set up your host machine for CRC:</p>
 <div class="listingblock">
 <div class="content">
 <pre>$ crc setup</pre>
@@ -1059,7 +1059,7 @@ To select the the Podman container runtime preset:</p>
 <div class="sect2">
 <h3 id="starting-the-instance_gsg"><a class="anchor" href="#starting-the-instance_gsg"></a><a class="link" href="#starting-the-instance_gsg">3.3. Starting the instance</a></h3>
 <div class="paragraph">
-<p>The <code class="command">crc start</code> command starts the CodeReady Containers instance and configured container runtime.</p>
+<p>The <code class="command">crc start</code> command starts the CRC instance and configured container runtime.</p>
 </div>
 <div class="ulist">
 <div class="title">Prerequisites</div>
@@ -1069,14 +1069,14 @@ To select the the Podman container runtime preset:</p>
 </li>
 <li>
 <p>You set up the host machine using the <code class="command">crc setup</code> command.
-For more information, see <a href="https://code-ready.github.io/crc/#setting-up-codeready-containers_gsg">Setting up CodeReady Containers</a>.</p>
+For more information, see <a href="https://code-ready.github.io/crc/#setting-up-codeready-containers_gsg">Setting up CRC</a>.</p>
 </li>
 <li>
 <p>On Microsoft Windows, ensure that your user account can elevate to Administrator privileges.</p>
 </li>
 <li>
 <p>For the OpenShift preset, ensure that you have a valid OpenShift user pull secret.
-Copy or download the pull secret from the Pull Secret section of the <a href="https://console.redhat.com/openshift/create/local">CodeReady Containers page on the Red&#160;Hat Hybrid Cloud Console</a>.</p>
+Copy or download the pull secret from the Pull Secret section of the <a href="https://console.redhat.com/openshift/create/local">CRC page on the Red&#160;Hat Hybrid Cloud Console</a>.</p>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -1098,7 +1098,7 @@ Copy or download the pull secret from the Pull Secret section of the <a href="ht
 <div class="title">Procedure</div>
 <ol class="arabic">
 <li>
-<p>Start the CodeReady Containers instance:</p>
+<p>Start the CRC instance:</p>
 <div class="listingblock">
 <div class="content">
 <pre>$ crc start</pre>
@@ -1131,7 +1131,7 @@ Copy or download the pull secret from the Pull Secret section of the <a href="ht
 <p>To change the default resources allocated to the instance, see <a href="https://code-ready.github.io/crc/#configuring-the-instance_gsg">Configuring the instance</a>.</p>
 </li>
 <li>
-<p>If you see errors during <code class="command">crc start</code>, see the <a href="https://code-ready.github.io/crc/#troubleshooting-codeready-containers_gsg">Troubleshooting CodeReady Containers</a> section for potential solutions.</p>
+<p>If you see errors during <code class="command">crc start</code>, see the <a href="https://code-ready.github.io/crc/#troubleshooting-codeready-containers_gsg">Troubleshooting CRC</a> section for potential solutions.</p>
 </li>
 </ul>
 </div>
@@ -1139,7 +1139,7 @@ Copy or download the pull secret from the Pull Secret section of the <a href="ht
 <div class="sect2">
 <h3 id="accessing-the-openshift-cluster_gsg"><a class="anchor" href="#accessing-the-openshift-cluster_gsg"></a><a class="link" href="#accessing-the-openshift-cluster_gsg">3.4. Accessing the OpenShift cluster</a></h3>
 <div class="paragraph">
-<p>Access the OpenShift cluster running in the CodeReady Containers instance by using the OpenShift web console or OpenShift CLI (<code class="command">oc</code>).</p>
+<p>Access the OpenShift cluster running in the CRC instance by using the OpenShift web console or OpenShift CLI (<code class="command">oc</code>).</p>
 </div>
 <div class="sect3">
 <h4 id="accessing-the-openshift-web-console_gsg"><a class="anchor" href="#accessing-the-openshift-web-console_gsg"></a><a class="link" href="#accessing-the-openshift-web-console_gsg">3.4.1. Accessing the OpenShift web console</a></h4>
@@ -1155,11 +1155,11 @@ Use the <code>kubeadmin</code> user only for administrative tasks such as creati
 <div class="title">Prerequisites</div>
 <ul>
 <li>
-<p>CodeReady Containers is configured to use the OpenShift preset.
+<p>CRC is configured to use the OpenShift preset.
 For more information, see <a href="https://code-ready.github.io/crc/#changing-the-selected-preset_gsg">Changing the selected preset</a>.</p>
 </li>
 <li>
-<p>A running CodeReady Containers instance.
+<p>A running CRC instance.
 For more information, see <a href="https://code-ready.github.io/crc/#starting-the-instance_gsg">Starting the instance</a>.</p>
 </li>
 </ul>
@@ -1187,7 +1187,7 @@ You can also view the password for the <code>developer</code> and <code>kubeadmi
 </ol>
 </div>
 <div class="paragraph">
-<p>See <a href="https://code-ready.github.io/crc/#troubleshooting-codeready-containers_gsg">Troubleshooting CodeReady Containers</a> if you cannot access the CodeReady Containers OpenShift cluster.</p>
+<p>See <a href="https://code-ready.github.io/crc/#troubleshooting-codeready-containers_gsg">Troubleshooting CRC</a> if you cannot access the CRC OpenShift cluster.</p>
 </div>
 <div class="ulist">
 <div class="title">Additional resources</div>
@@ -1207,11 +1207,11 @@ You can also view the password for the <code>developer</code> and <code>kubeadmi
 <div class="title">Prerequisites</div>
 <ul>
 <li>
-<p>CodeReady Containers is configured to use the OpenShift preset.
+<p>CRC is configured to use the OpenShift preset.
 For more information, see <a href="https://code-ready.github.io/crc/#changing-the-selected-preset_gsg">Changing the selected preset</a>.</p>
 </li>
 <li>
-<p>A running CodeReady Containers instance.
+<p>A running CRC instance.
 For more information, see <a href="https://code-ready.github.io/crc/#starting-the-instance_gsg">Starting the instance</a>.</p>
 </li>
 </ul>
@@ -1272,7 +1272,7 @@ $ oc get co</pre>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>CodeReady Containers disables the Cluster Monitoring Operator by default.</p>
+<p>CRC disables the Cluster Monitoring Operator by default.</p>
 </div>
 </td>
 </tr>
@@ -1282,7 +1282,7 @@ $ oc get co</pre>
 </ol>
 </div>
 <div class="paragraph">
-<p>See <a href="https://code-ready.github.io/crc/#troubleshooting-codeready-containers_gsg">Troubleshooting CodeReady Containers</a> if you cannot access the CodeReady Containers OpenShift cluster.</p>
+<p>See <a href="https://code-ready.github.io/crc/#troubleshooting-codeready-containers_gsg">Troubleshooting CRC</a> if you cannot access the CRC OpenShift cluster.</p>
 </div>
 <div class="ulist">
 <div class="title">Additional resources</div>
@@ -1296,7 +1296,7 @@ $ oc get co</pre>
 <div class="sect3">
 <h4 id="accessing-the-internal-openshift-registry_gsg"><a class="anchor" href="#accessing-the-internal-openshift-registry_gsg"></a><a class="link" href="#accessing-the-internal-openshift-registry_gsg">3.4.3. Accessing the internal OpenShift registry</a></h4>
 <div class="paragraph">
-<p>The OpenShift cluster running in the CodeReady Containers instance includes an internal container image registry by default.
+<p>The OpenShift cluster running in the CRC instance includes an internal container image registry by default.
 This internal container image registry can be used as a publication target for locally developed container images.
 To access the internal OpenShift registry, follow these steps.</p>
 </div>
@@ -1304,11 +1304,11 @@ To access the internal OpenShift registry, follow these steps.</p>
 <div class="title">Prerequisites</div>
 <ul>
 <li>
-<p>CodeReady Containers is configured to use the OpenShift preset.
+<p>CRC is configured to use the OpenShift preset.
 For more information, see <a href="https://code-ready.github.io/crc/#changing-the-selected-preset_gsg">Changing the selected preset</a>.</p>
 </li>
 <li>
-<p>A running CodeReady Containers instance.
+<p>A running CRC instance.
 For more information, see <a href="https://code-ready.github.io/crc/#starting-the-instance_gsg">Starting the instance</a>.</p>
 </li>
 <li>
@@ -1428,7 +1428,7 @@ For more information, see <a href="https://docs.docker.com/registry/insecure/">t
 <h3 id="deploying-sample-application-with-odo_gsg"><a class="anchor" href="#deploying-sample-application-with-odo_gsg"></a><a class="link" href="#deploying-sample-application-with-odo_gsg">3.5. Deploying a sample application with <code>odo</code></a></h3>
 <div class="paragraph">
 <p>You can use <code class="command">odo</code> to create OpenShift projects and applications from the command line.
-This procedure deploys a sample application to the OpenShift cluster running in the CodeReady Containers instance.</p>
+This procedure deploys a sample application to the OpenShift cluster running in the CRC instance.</p>
 </div>
 <div class="ulist">
 <div class="title">Prerequisites</div>
@@ -1438,11 +1438,11 @@ This procedure deploys a sample application to the OpenShift cluster running in 
 For more information, see <a href="https://docs.openshift.com/container-platform/latest/cli_reference/developer_cli_odo/installing-odo.html">Installing <code>odo</code></a> in the <code class="command">odo</code> documentation.</p>
 </li>
 <li>
-<p>CodeReady Containers is configured to use the OpenShift preset.
+<p>CRC is configured to use the OpenShift preset.
 For more information, see <a href="https://code-ready.github.io/crc/#changing-the-selected-preset_gsg">Changing the selected preset</a>.</p>
 </li>
 <li>
-<p>The CodeReady Containers instance is running.
+<p>The CRC instance is running.
 For more information, see <a href="https://code-ready.github.io/crc/#starting-the-instance_gsg">Starting the instance</a>.</p>
 </li>
 </ul>
@@ -1451,7 +1451,7 @@ For more information, see <a href="https://code-ready.github.io/crc/#starting-th
 <div class="title">Procedure</div>
 <ol class="arabic">
 <li>
-<p>Log in to the running CodeReady Containers OpenShift cluster as the <code>developer</code> user:</p>
+<p>Log in to the running CRC OpenShift cluster as the <code>developer</code> user:</p>
 <div class="listingblock">
 <div class="content">
 <pre>$ odo login -u developer -p developer</pre>
@@ -1542,14 +1542,14 @@ To create a component from a local Git repository, see <a href="https://docs.ope
 <div class="sect2">
 <h3 id="stopping-the-instance_gsg"><a class="anchor" href="#stopping-the-instance_gsg"></a><a class="link" href="#stopping-the-instance_gsg">3.6. Stopping the instance</a></h3>
 <div class="paragraph">
-<p>The <code class="command">crc stop</code> command stops the running CodeReady Containers instance and container runtime.
+<p>The <code class="command">crc stop</code> command stops the running CRC instance and container runtime.
 The stopping process takes a few minutes while the cluster shuts down.</p>
 </div>
 <div class="ulist">
 <div class="title">Procedure</div>
 <ul>
 <li>
-<p>Stop the CodeReady Containers instance and container runtime:</p>
+<p>Stop the CRC instance and container runtime:</p>
 <div class="listingblock">
 <div class="content">
 <pre>$ crc stop</pre>
@@ -1562,13 +1562,13 @@ The stopping process takes a few minutes while the cluster shuts down.</p>
 <div class="sect2">
 <h3 id="deleting-the-instance_gsg"><a class="anchor" href="#deleting-the-instance_gsg"></a><a class="link" href="#deleting-the-instance_gsg">3.7. Deleting the instance</a></h3>
 <div class="paragraph">
-<p>The <code class="command">crc delete</code> command deletes an existing CodeReady Containers instance.</p>
+<p>The <code class="command">crc delete</code> command deletes an existing CRC instance.</p>
 </div>
 <div class="ulist">
 <div class="title">Procedure</div>
 <ul>
 <li>
-<p>Delete the CodeReady Containers instance:</p>
+<p>Delete the CRC instance:</p>
 <div class="listingblock">
 <div class="content">
 <pre>$ crc delete</pre>
@@ -1582,7 +1582,7 @@ The stopping process takes a few minutes while the cluster shuts down.</p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>The <code class="command">crc delete</code> command results in the loss of data stored in the CodeReady Containers instance.
+<p>The <code class="command">crc delete</code> command results in the loss of data stored in the CRC instance.
 Save any desired information stored in the instance before running this command.</p>
 </div>
 </td>
@@ -1596,12 +1596,12 @@ Save any desired information stored in the instance before running this command.
 </div>
 </div>
 <div class="sect1">
-<h2 id="configuring-codeready-containers_gsg"><a class="anchor" href="#configuring-codeready-containers_gsg"></a><a class="link" href="#configuring-codeready-containers_gsg">4. Configuring CodeReady Containers</a></h2>
+<h2 id="configuring-codeready-containers_gsg"><a class="anchor" href="#configuring-codeready-containers_gsg"></a><a class="link" href="#configuring-codeready-containers_gsg">4. Configuring CRC</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="about-codeready-containers-configuration_gsg"><a class="anchor" href="#about-codeready-containers-configuration_gsg"></a><a class="link" href="#about-codeready-containers-configuration_gsg">4.1. About CodeReady Containers configuration</a></h3>
+<h3 id="about-codeready-containers-configuration_gsg"><a class="anchor" href="#about-codeready-containers-configuration_gsg"></a><a class="link" href="#about-codeready-containers-configuration_gsg">4.1. About CRC configuration</a></h3>
 <div class="paragraph">
-<p>Use the <code class="command">crc config</code> command to configure both the <code class="command">crc</code> executable and the CodeReady Containers instance.
+<p>Use the <code class="command">crc config</code> command to configure both the <code class="command">crc</code> executable and the CRC instance.
 The <code class="command">crc config</code> command requires a subcommand to act on the configuration.
 The available subcommands are <code>get</code>, <code>set,</code> <code>unset</code>, and <code>view</code>.
 The <code>get</code>, <code>set</code>, and <code>unset</code> subcommands operate on named configurable properties.
@@ -1614,9 +1614,9 @@ Set the value of a property starting with <code>skip-check</code> to <code>true<
 </div>
 </div>
 <div class="sect2">
-<h3 id="viewing-codeready-containers-configuration_gsg"><a class="anchor" href="#viewing-codeready-containers-configuration_gsg"></a><a class="link" href="#viewing-codeready-containers-configuration_gsg">4.2. Viewing CodeReady Containers configuration</a></h3>
+<h3 id="viewing-codeready-containers-configuration_gsg"><a class="anchor" href="#viewing-codeready-containers-configuration_gsg"></a><a class="link" href="#viewing-codeready-containers-configuration_gsg">4.2. Viewing CRC configuration</a></h3>
 <div class="paragraph">
-<p>The CodeReady Containers executable provides commands to view configurable properties and the current CodeReady Containers configuration.</p>
+<p>The CRC executable provides commands to view configurable properties and the current CRC configuration.</p>
 </div>
 <div class="ulist">
 <div class="title">Procedure</div>
@@ -1665,7 +1665,7 @@ Set the value of a property starting with <code>skip-check</code> to <code>true<
 <div class="sect2">
 <h3 id="changing-the-selected-preset_gsg"><a class="anchor" href="#changing-the-selected-preset_gsg"></a><a class="link" href="#changing-the-selected-preset_gsg">4.3. Changing the selected preset</a></h3>
 <div class="paragraph _abstract">
-<p>You can change the container runtime used for the CodeReady Containers instance by selecting the desired preset.</p>
+<p>You can change the container runtime used for the CRC instance by selecting the desired preset.</p>
 </div>
 <div class="paragraph">
 <p>On Microsoft Windows and macOS, you can change the selected preset using the system tray or command line interface.
@@ -1679,8 +1679,8 @@ On Linux, use the command line interface.</p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>You cannot change the preset of an existing CodeReady Containers instance.
-Preset changes are only applied when a CodeReady Containers instance is created.
+<p>You cannot change the preset of an existing CRC instance.
+Preset changes are only applied when a CRC instance is created.
 To enable preset changes, you must delete the existing instance and start a new one.</p>
 </div>
 </td>
@@ -1715,7 +1715,7 @@ To enable preset changes, you must delete the existing instance and start a new 
 <div class="sect2">
 <h3 id="configuring-the-instance_gsg"><a class="anchor" href="#configuring-the-instance_gsg"></a><a class="link" href="#configuring-the-instance_gsg">4.4. Configuring the instance</a></h3>
 <div class="paragraph">
-<p>Use the <code>cpus</code> and <code>memory</code> properties to configure the default number of vCPUs and amount of memory available to the CodeReady Containers instance, respectively.</p>
+<p>Use the <code>cpus</code> and <code>memory</code> properties to configure the default number of vCPUs and amount of memory available to the CRC instance, respectively.</p>
 </div>
 <div class="paragraph">
 <p>Alternatively, the number of vCPUs and amount of memory can be assigned using the <code>--cpus</code> and <code>--memory</code> flags to the <code>crc start</code> command, respectively.</p>
@@ -1728,7 +1728,7 @@ To enable preset changes, you must delete the existing instance and start a new 
 </td>
 <td class="content">
 <div class="paragraph">
-<p>You cannot change the configuration of a running CodeReady Containers instance.
+<p>You cannot change the configuration of a running CRC instance.
 To enable configuration changes, you must stop the running instance and start it again.</p>
 </div>
 </td>
@@ -1806,13 +1806,13 @@ The amount of memory to assign must be greater than or equal to the default.</p>
 <div class="sect3">
 <h4 id="dns-configuration-generalgsg"><a class="anchor" href="#dns-configuration-generalgsg"></a><a class="link" href="#dns-configuration-generalgsg">5.1.1. General DNS setup</a></h4>
 <div class="paragraph">
-<p>The OpenShift cluster managed by CodeReady Containers uses 2 DNS domain names, <code>crc.testing</code> and <code>apps-crc.testing</code>.
+<p>The OpenShift cluster managed by CRC uses 2 DNS domain names, <code>crc.testing</code> and <code>apps-crc.testing</code>.
 The <code>crc.testing</code> domain is for core OpenShift services.
 The <code>apps-crc.testing</code> domain is for accessing OpenShift applications deployed on the cluster.</p>
 </div>
 <div class="paragraph">
 <p>For example, the OpenShift API server is exposed as <code>api.crc.testing</code> while the OpenShift console is accessed as <code>console-openshift-console.apps-crc.testing</code>.
-These DNS domains are served by a <code>dnsmasq</code> DNS container running inside the CodeReady Containers instance.</p>
+These DNS domains are served by a <code>dnsmasq</code> DNS container running inside the CRC instance.</p>
 </div>
 <div class="paragraph">
 <p>The <code class="command">crc setup</code> command detects and adjusts your system DNS configuration so that it can resolve these domains.
@@ -1822,7 +1822,7 @@ Additional checks are done to verify DNS is properly configured when running <co
 <div class="sect3">
 <h4 id="dns-configuration-linux_gsg"><a class="anchor" href="#dns-configuration-linux_gsg"></a><a class="link" href="#dns-configuration-linux_gsg">5.1.2. Linux</a></h4>
 <div class="paragraph">
-<p>On Linux, depending on your distribution, CodeReady Containers expects the following DNS configuration:</p>
+<p>On Linux, depending on your distribution, CRC expects the following DNS configuration:</p>
 </div>
 <div class="sect4">
 <h5 id="_networkmanager_systemd_resolved"><a class="anchor" href="#_networkmanager_systemd_resolved"></a><a class="link" href="#_networkmanager_systemd_resolved">NetworkManager + systemd-resolved</a></h5>
@@ -1832,11 +1832,11 @@ Additional checks are done to verify DNS is properly configured when running <co
 <div class="ulist">
 <ul>
 <li>
-<p>CodeReady Containers expects NetworkManager to manage networking.</p>
+<p>CRC expects NetworkManager to manage networking.</p>
 </li>
 <li>
-<p>CodeReady Containers configures <code>systemd-resolved</code> to forward requests for the <code>testing</code> domain to the <code>192.168.130.11</code> DNS server.
-<code>192.168.130.11</code> is the IP of the CodeReady Containers instance.</p>
+<p>CRC configures <code>systemd-resolved</code> to forward requests for the <code>testing</code> domain to the <code>192.168.130.11</code> DNS server.
+<code>192.168.130.11</code> is the IP of the CRC instance.</p>
 </li>
 <li>
 <p><code>systemd-resolved</code> configuration is done with a NetworkManager dispatcher script in <strong class="filename"><em>/etc/NetworkManager/dispatcher.d/99-crc.sh</em></strong>:</p>
@@ -1878,7 +1878,7 @@ After <a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_
 <div class="ulist">
 <ul>
 <li>
-<p>CodeReady Containers expects NetworkManager to manage networking.</p>
+<p>CRC expects NetworkManager to manage networking.</p>
 </li>
 <li>
 <p>NetworkManager uses <code>dnsmasq</code> with the <strong class="filename"><em>/etc/NetworkManager/conf.d/crc-nm-dnsmasq.conf</em></strong> configuration file.</p>
@@ -1907,7 +1907,7 @@ server=/apps-crc.testing/192.168.130.11</pre>
 <div class="sect2">
 <h3 id="reserved-ip-subnets_gsg"><a class="anchor" href="#reserved-ip-subnets_gsg"></a><a class="link" href="#reserved-ip-subnets_gsg">5.2. Reserved IP subnets</a></h3>
 <div class="paragraph">
-<p>The CodeReady Containers OpenShift cluster reserves IP subnets for internal use which should not collide with your host network.
+<p>The CRC OpenShift cluster reserves IP subnets for internal use which should not collide with your host network.
 Ensure that the following IP subnets are available for use:</p>
 </div>
 <div class="ulist">
@@ -1932,9 +1932,9 @@ The additional reserved subnet for Linux is <code>192.168.130.0/24</code>.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="starting-codeready-containers-behind-proxy_gsg"><a class="anchor" href="#starting-codeready-containers-behind-proxy_gsg"></a><a class="link" href="#starting-codeready-containers-behind-proxy_gsg">5.3. Starting CodeReady Containers behind a proxy</a></h3>
+<h3 id="starting-codeready-containers-behind-proxy_gsg"><a class="anchor" href="#starting-codeready-containers-behind-proxy_gsg"></a><a class="link" href="#starting-codeready-containers-behind-proxy_gsg">5.3. Starting CRC behind a proxy</a></h3>
 <div class="paragraph">
-<p>You can start CodeReady Containers behind a defined proxy using environment variables or configurable properties.</p>
+<p>You can start CRC behind a defined proxy using environment variables or configurable properties.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1991,7 +1991,7 @@ $ crc config set no-proxy <em>&lt;comma-separated-no-proxy-entries&gt;</em></pre
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Proxy-related values set in the configuration for CodeReady Containers have priority over values set with environment variables.</p>
+<p>Proxy-related values set in the configuration for CRC have priority over values set with environment variables.</p>
 </div>
 </td>
 </tr>
@@ -1999,9 +1999,9 @@ $ crc config set no-proxy <em>&lt;comma-separated-no-proxy-entries&gt;</em></pre
 </div>
 </div>
 <div class="sect2">
-<h3 id="setting-up-remote-server_gsg"><a class="anchor" href="#setting-up-remote-server_gsg"></a><a class="link" href="#setting-up-remote-server_gsg">5.4. Setting up CodeReady Containers on a remote server</a></h3>
+<h3 id="setting-up-remote-server_gsg"><a class="anchor" href="#setting-up-remote-server_gsg"></a><a class="link" href="#setting-up-remote-server_gsg">5.4. Setting up CRC on a remote server</a></h3>
 <div class="paragraph">
-<p>Configure a remote server to run a CodeReady Containers OpenShift cluster.</p>
+<p>Configure a remote server to run a CRC OpenShift cluster.</p>
 </div>
 <div class="paragraph">
 <p>This procedure assumes the use of a Red&#160;Hat Enterprise&#160;Linux, Fedora, or CentOS server.
@@ -2026,11 +2026,11 @@ Exposing an insecure server on the internet has many security implications.</p>
 <div class="title">Prerequisites</div>
 <ul>
 <li>
-<p>CodeReady Containers is installed and set up on the remote server.
-For more information, see <a href="https://code-ready.github.io/crc/#installing-codeready-containers_gsg">Installing CodeReady Containers</a> and <a href="https://code-ready.github.io/crc/#setting-up-codeready-containers_gsg">Setting up CodeReady Containers</a>.</p>
+<p>CRC is installed and set up on the remote server.
+For more information, see <a href="https://code-ready.github.io/crc/#installing-codeready-containers_gsg">Installing CRC</a> and <a href="https://code-ready.github.io/crc/#setting-up-codeready-containers_gsg">Setting up CRC</a>.</p>
 </li>
 <li>
-<p>CodeReady Containers is configured to use the OpenShift preset on the remote server.
+<p>CRC is configured to use the OpenShift preset on the remote server.
 For more information, see <a href="https://code-ready.github.io/crc/#changing-the-selected-preset_gsg">Changing the selected preset</a>.</p>
 </li>
 <li>
@@ -2133,9 +2133,9 @@ EOF</pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="connecting-to-remote-instance_gsg"><a class="anchor" href="#connecting-to-remote-instance_gsg"></a><a class="link" href="#connecting-to-remote-instance_gsg">5.5. Connecting to a remote CodeReady Containers instance</a></h3>
+<h3 id="connecting-to-remote-instance_gsg"><a class="anchor" href="#connecting-to-remote-instance_gsg"></a><a class="link" href="#connecting-to-remote-instance_gsg">5.5. Connecting to a remote CRC instance</a></h3>
 <div class="paragraph">
-<p>Use <code class="application">dnsmasq</code> to connect a client machine to a remote server running a CodeReady Containers OpenShift cluster.</p>
+<p>Use <code class="application">dnsmasq</code> to connect a client machine to a remote server running a CRC OpenShift cluster.</p>
 </div>
 <div class="paragraph">
 <p>This procedure assumes the use of a Red&#160;Hat Enterprise&#160;Linux, Fedora, or CentOS client.
@@ -2160,7 +2160,7 @@ Run every command in this procedure on the client.</p>
 <ul>
 <li>
 <p>A remote server is set up for the client to connect to.
-For more information, see <a href="https://code-ready.github.io/crc/#setting-up-remote-server_gsg">Setting up CodeReady Containers on a remote server</a>.</p>
+For more information, see <a href="https://code-ready.github.io/crc/#setting-up-remote-server_gsg">Setting up CRC on a remote server</a>.</p>
 </li>
 <li>
 <p>You know the external IP address of the server.</p>
@@ -2193,7 +2193,7 @@ EOF</pre>
 </div>
 </li>
 <li>
-<p>Add DNS entries for CodeReady Containers to the <code class="application">dnsmasq</code> configuration:</p>
+<p>Add DNS entries for CRC to the <code class="application">dnsmasq</code> configuration:</p>
 <div class="listingblock">
 <div class="content">
 <pre>$ sudo tee /etc/NetworkManager/dnsmasq.d/external-crc.conf &amp;&gt;/dev/null &lt;&lt;EOF
@@ -2211,7 +2211,7 @@ EOF</pre>
 <td class="content">
 <div class="paragraph">
 <p>Comment out any existing entries in <strong class="filename"><em>/etc/NetworkManager/dnsmasq.d/crc.conf</em></strong>.
-These entries are created by running a local instance of CodeReady Containers and will conflict with the entries for the remote cluster.</p>
+These entries are created by running a local instance of CRC and will conflict with the entries for the remote cluster.</p>
 </div>
 </td>
 </tr>
@@ -2248,7 +2248,7 @@ These entries are created by running a local instance of CodeReady Containers an
 <div class="sect2">
 <h3 id="starting-monitoring_gsg"><a class="anchor" href="#starting-monitoring_gsg"></a><a class="link" href="#starting-monitoring_gsg">6.1. Starting monitoring</a></h3>
 <div class="paragraph">
-<p>CodeReady Containers disables cluster monitoring by default to ensure that CodeReady Containers can run on a typical notebook.
+<p>CRC disables cluster monitoring by default to ensure that CRC can run on a typical notebook.
 Monitoring is responsible for listing your cluster in the <a href="https://console.redhat.com/openshift">Red Hat Hybrid Cloud Console</a>.
 Follow this procedure to enable monitoring for your cluster.</p>
 </div>
@@ -2256,7 +2256,7 @@ Follow this procedure to enable monitoring for your cluster.</p>
 <div class="title">Prerequisites</div>
 <ul>
 <li>
-<p>You must assign additional memory to the CodeReady Containers instance.
+<p>You must assign additional memory to the CRC instance.
 At least 14 GiB of memory, a value of <code>14336</code>, is recommended for core functionality.
 Increased workloads will require more memory.
 For more information, see <a href="https://code-ready.github.io/crc/#configuring-the-instance_gsg">Configuring the instance</a>.</p>
@@ -2290,7 +2290,7 @@ For more information, see <a href="https://code-ready.github.io/crc/#configuring
 <td class="content">
 <div class="paragraph">
 <p>Cluster monitoring cannot be disabled.
-To remove monitoring, set the <code>enable-cluster-monitoring</code> configurable property to <code>false</code> and delete the existing CodeReady Containers instance.</p>
+To remove monitoring, set the <code>enable-cluster-monitoring</code> configurable property to <code>false</code> and delete the existing CRC instance.</p>
 </div>
 </td>
 </tr>
@@ -2303,7 +2303,7 @@ To remove monitoring, set the <code>enable-cluster-monitoring</code> configurabl
 </div>
 </div>
 <div class="sect1">
-<h2 id="troubleshooting-codeready-containers_gsg"><a class="anchor" href="#troubleshooting-codeready-containers_gsg"></a><a class="link" href="#troubleshooting-codeready-containers_gsg">7. Troubleshooting Red&#160;Hat CodeReady Containers</a></h2>
+<h2 id="troubleshooting-codeready-containers_gsg"><a class="anchor" href="#troubleshooting-codeready-containers_gsg"></a><a class="link" href="#troubleshooting-codeready-containers_gsg">7. Troubleshooting Red&#160;Hat CRC</a></h2>
 <div class="sectionbody">
 <div class="admonitionblock note">
 <table>
@@ -2313,8 +2313,8 @@ To remove monitoring, set the <code>enable-cluster-monitoring</code> configurabl
 </td>
 <td class="content">
 <div class="paragraph">
-<p>The goal of Red&#160;Hat CodeReady Containers is to deliver an OpenShift environment for development and testing purposes.
-Issues occurring during installation or usage of specific OpenShift applications are outside of the scope of CodeReady Containers.
+<p>The goal of Red&#160;Hat CRC is to deliver an OpenShift environment for development and testing purposes.
+Issues occurring during installation or usage of specific OpenShift applications are outside of the scope of CRC.
 Report such issues to the relevant project.
 For example, OpenShift tracks issues on <a href="https://github.com/openshift/origin/issues">GitHub</a>.</p>
 </div>
@@ -2388,7 +2388,7 @@ Certificate renewal can add up to five minutes to the start time of the cluster.
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p><a href="https://console.redhat.com/openshift/create/local">Download the latest CodeReady Containers release</a> and place the <code class="command">crc</code> executable in your <code>$PATH</code>.</p>
+<p><a href="https://console.redhat.com/openshift/create/local">Download the latest CRC release</a> and place the <code class="command">crc</code> executable in your <code>$PATH</code>.</p>
 </li>
 <li>
 <p>Remove the cluster with certificate errors using the <code class="command">crc delete</code> command:</p>
@@ -2405,7 +2405,7 @@ Certificate renewal can add up to five minutes to the start time of the cluster.
 </td>
 <td class="content">
 <div class="paragraph">
-<p>The <code class="command">crc delete</code> command results in the loss of data stored in the CodeReady Containers instance.
+<p>The <code class="command">crc delete</code> command results in the loss of data stored in the CRC instance.
 Save any desired information stored in the instance before running this command.</p>
 </div>
 </td>
@@ -2435,8 +2435,8 @@ Save any desired information stored in the instance before running this command.
 <div class="sect2">
 <h3 id="troubleshooting-bundle-version-mismatch_gsg"><a class="anchor" href="#troubleshooting-bundle-version-mismatch_gsg"></a><a class="link" href="#troubleshooting-bundle-version-mismatch_gsg">7.3. Troubleshooting bundle version mismatch</a></h3>
 <div class="paragraph">
-<p>Created CodeReady Containers instances contain bundle information and instance data.
-Bundle information and instance data is not updated when setting up a new CodeReady Containers release.
+<p>Created CRC instances contain bundle information and instance data.
+Bundle information and instance data is not updated when setting up a new CRC release.
 This information is not updated due to customization in the earlier instance data.
 This will lead to errors when running the <code class="command">crc start</code> command:</p>
 </div>
@@ -2466,7 +2466,7 @@ FATA Bundle 'crc_hyperkit_4.2.8.crcbundle' was requested, but the existing VM is
 </td>
 <td class="content">
 <div class="paragraph">
-<p>The <code class="command">crc delete</code> command results in the loss of data stored in the CodeReady Containers instance.
+<p>The <code class="command">crc delete</code> command results in the loss of data stored in the CRC instance.
 Save any desired information stored in the instance before running this command.</p>
 </div>
 </td>
@@ -2480,7 +2480,7 @@ Save any desired information stored in the instance before running this command.
 <div class="sect2">
 <h3 id="troubleshooting-unknown-issues_gsg"><a class="anchor" href="#troubleshooting-unknown-issues_gsg"></a><a class="link" href="#troubleshooting-unknown-issues_gsg">7.4. Troubleshooting unknown issues</a></h3>
 <div class="paragraph">
-<p>Resolve most issues by restarting CodeReady Containers with a clean state.
+<p>Resolve most issues by restarting CRC with a clean state.
 This involves stopping the instance, deleting it, reverting changes made by the <code class="command">crc setup</code> command, reapplying those changes, and restarting the instance.</p>
 </div>
 <div class="ulist">
@@ -2488,27 +2488,27 @@ This involves stopping the instance, deleting it, reverting changes made by the 
 <ul>
 <li>
 <p>You set up the host machine with the <code class="command">crc setup</code> command.
-For more information, see <a href="https://code-ready.github.io/crc/#setting-up-codeready-containers_gsg">Setting up CodeReady Containers</a>.</p>
+For more information, see <a href="https://code-ready.github.io/crc/#setting-up-codeready-containers_gsg">Setting up CRC</a>.</p>
 </li>
 <li>
-<p>You started CodeReady Containers with the <code class="command">crc start</code> command.
+<p>You started CRC with the <code class="command">crc start</code> command.
 For more information, see <a href="https://code-ready.github.io/crc/#starting-the-instance_gsg">Starting the instance</a>.</p>
 </li>
 <li>
-<p>You are using the latest CodeReady Containers release.
-Using a version earlier than CodeReady Containers 1.2.0 may result in errors related to expired x509 certificates.
+<p>You are using the latest CRC release.
+Using a version earlier than CRC 1.2.0 may result in errors related to expired x509 certificates.
 For more information, see <a href="https://code-ready.github.io/crc/#troubleshooting-expired-certificates_gsg">Troubleshooting expired certificates</a>.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
 <div class="title">Procedure</div>
-<p>To troubleshoot CodeReady Containers, perform the following steps:</p>
+<p>To troubleshoot CRC, perform the following steps:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Stop the CodeReady Containers instance:</p>
+<p>Stop the CRC instance:</p>
 <div class="listingblock">
 <div class="content">
 <pre>$ crc stop</pre>
@@ -2516,7 +2516,7 @@ For more information, see <a href="https://code-ready.github.io/crc/#troubleshoo
 </div>
 </li>
 <li>
-<p>Delete the CodeReady Containers instance:</p>
+<p>Delete the CRC instance:</p>
 <div class="listingblock">
 <div class="content">
 <pre>$ crc delete</pre>
@@ -2530,7 +2530,7 @@ For more information, see <a href="https://code-ready.github.io/crc/#troubleshoo
 </td>
 <td class="content">
 <div class="paragraph">
-<p>The <code class="command">crc delete</code> command results in the loss of data stored in the CodeReady Containers instance.
+<p>The <code class="command">crc delete</code> command results in the loss of data stored in the CRC instance.
 Save any desired information stored in the instance before running this command.</p>
 </div>
 </td>
@@ -2553,7 +2553,7 @@ Save any desired information stored in the instance before running this command.
 </td>
 <td class="content">
 <div class="paragraph">
-<p>The <code class="command">crc cleanup</code> command removes an existing CodeReady Containers instance and reverts changes to DNS entries created by the <code class="command">crc setup</code> command.
+<p>The <code class="command">crc cleanup</code> command removes an existing CRC instance and reverts changes to DNS entries created by the <code class="command">crc setup</code> command.
 On macOS, the <code class="command">crc cleanup</code> command also removes the system tray.</p>
 </div>
 </td>
@@ -2570,7 +2570,7 @@ On macOS, the <code class="command">crc cleanup</code> command also removes the 
 </div>
 </li>
 <li>
-<p>Start the CodeReady Containers instance:</p>
+<p>Start the CRC instance:</p>
 <div class="listingblock">
 <div class="content">
 <pre>$ crc start</pre>
