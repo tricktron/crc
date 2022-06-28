@@ -119,7 +119,7 @@ func defaultBundlePath(cfg Storage) string {
 
 func GetPreset(config Storage) preset.Preset {
 	if runtime.GOOS == "darwin" && runtime.GOARCH == "arm64" {
-		return preset.Podman
+		return preset.OpenShift
 	}
 
 	return preset.ParsePreset(config.Get(Preset).AsString())
